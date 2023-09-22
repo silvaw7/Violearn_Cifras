@@ -14,6 +14,13 @@ public class Usuario {
 	
 	private int qtdadeXp;
 	
+	public void printUser(Usuario user) {
+		System.out.println("Nome do usuário: " + user.getNome());
+		System.out.println("Email cadastrado: " + user.getEmail());
+		System.out.println("Telefone: " + user.getTelefone());
+		System.out.println("Quantidade de XP: " + user.getQtdadeXp());
+	}
+	
 	public int getId() {
 		return this.id;
 	}
